@@ -1,0 +1,27 @@
+Package: DSCUNIDataSets
+Type: Package
+Title: A Comprehensive Collection of University and Engineering Datasets
+Version: 0.1.0
+Maintainer: Renzo Caceres Rossi <arenzocaceresrossi@gmail.com>
+Description: Offers a curated collection of datasets focused on university and engineering research, covering mechanical engineering experiments and clustering studies.
+    Designed for researchers, analysts, and data scientists, the package includes datasets such as 'mechIng' for ordered isotonic regression in mechanical engineering
+    and 'bolts' for analyzing the effects of machine adjustments on counting time in clustering experiments.
+    It aims to facilitate advanced research, analysis, and understanding of engineering processes and data clustering techniques.
+License: GPL-3
+URL: https://github.com/lightbluetitan/dscclub-uni, https://lightbluetitan.github.io/dscclub-uni/
+BugReports: https://github.com/lightbluetitan/dscclub-uni/issues
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    ggplot2,
+    dplyr,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Authors@R: person(given = c("Renzo", "Caceres"),
+                  family = "Rossi",
+                  role = c("aut", "cre"),
+                  email = "arenzocaceresrossi@gmail.com")
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+RoxygenNote: 7.3.2
